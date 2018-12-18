@@ -1,0 +1,122 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	color: rgba(0, 0, 0, .8);
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .6em 1em .4em;
+
+	&:hover {
+		//border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		//border-color: $color__border-button-focus;
+	}
+}
+
+
+
+.button, .btn {
+	appearance: none;
+	background: $primary;
+	border-radius: 0px;
+	border: 0;
+	box-sizing: border-box;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 15px;
+	outline: none;
+	padding: 15px 30px;
+	margin: 10px 20px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.33s;
+	vertical-align: top;
+	text-transform: uppercase;
+  }
+
+.button--primary, .btn-primary {
+	color: white;
+}
+
+.button--primary:visited, .btn-primary:visited {
+	color: white;
+}
+
+.button--secondary {
+	background-color: $secondary;
+}
+
+.button--secondary:visited, .btn-primary:visited {
+	color: white;
+}
+
+.partner-logos {
+	a {
+	  margin: 0 1rem 2rem 1rem;
+	  img {
+		max-width: 200px;
+		display: inline-block;
+		max-height: 100px;
+		width: auto;
+		text-align: center;
+		margin: 0 auto;
+	  }
+	}
+	margin-bottom: 2em;
+  }
+
+//   .button:active {
+// 	box-shadow: none;
+// 	bottom: -2px;
+//   }
+//   .button--primary, .button--primary {
+// 	background: #31BAFF;
+// 	color: white;
+//   }
+  
+//   .button--primary:visited {
+// 	color: white;
+//   }
+
+//   .button--primary:focus .icon {
+// 	transition: 0.33s;
+// 	background: #31BAFF;
+// 	color: black;
+//   }
+//   .button--primary:hover {
+// 	background: #31BAFF;
+// 	color: white;
+//   }
+//   .button--secondary {
+// 	background: black;
+// 	color: white;
+//   }
+//   .button--secondary:hover {
+// 	background: black;
+// 	color: white;
+//   }
+//   .button--tertiary {
+// 	background: #31BAFF;
+// 	color: white;
+//   }
+//   .button--tertiary:hover {
+// 	background: #00a8fd;
+// 	color: rgba(255, 255, 255, 0.75);
+//   }
+
+//   .button:active {
+// 	box-shadow: none;
+//   }

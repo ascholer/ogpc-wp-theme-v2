@@ -1,0 +1,82 @@
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+	margin: 0em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+
+.footer {
+	text-align: center;
+}
+
+.footer-logo {
+	margin: 1.5em 0 1em;
+	display: inline-block;
+	max-width: 108px;
+}
+
+.site-footer {
+	background-color: $color__background-shaded;
+	color: lighten($color__text-main, 30%);
+}
+
+.site-branding img {
+	max-width: 350px;
+}
+
+header#masthead {
+	padding-top: 1em;
+    padding-bottom: 0;
+    padding-left: 2em;
+}
+
+#primary {
+}
+
+#primary:before {
+}
+
+.content-area {
+	padding: 2em 0;
+	box-shadow: 
+	inset 0px 11px 8px -10px #CCC,
+	inset 0px -11px 8px -10px #CCC;
+}
+
+.corner-ribbon.top-right{
+	display: none;
+  }
+  
+
+// .corner-ribbon.top-right{
+// 	position: absolute;
+// 	top: 35px;
+// 	right: -80px;
+// 	left: auto;
+// 	transform: rotate(45deg);
+// 	text-align: center;
+// 	width: 250px;
+//   }
+  
+// .corner-ribbon.blue{
+// 	background: $color__accent;
+// 	color: white;
+// }
