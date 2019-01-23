@@ -1,18 +1,25 @@
 
-OGPC WPTheme v2
+OGPC WP Theme v2
 =======================
 
+Install 
+----------------------------
+Clone into folder in WP themes directory. Add via WP dashboard.
 
-Build
+Development
 -----------------------------
-From root directory:
+Requires sass. Easiest to install sass and all dependencies via npm. sass/package.json lists dependencies.
+
+To install dependencies, from sass dir do:
+```
+npm install
+```
+
+To build, from root dir:
+```
 sass sass/style.scss style.css
-
-
-Build Dependencies
--------------------
-Bootstrap scss - imported from scss/style.scss - assumed to be installed via npm and exist in node_modules
+```
 
 Notes
 -----------------------------
-Based on underscores starting framework.
+Based on [underscores](https://underscores.me/).
